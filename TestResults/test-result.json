@@ -1,0 +1,1963 @@
+{
+  "config": {
+    "configFile": "E:\\Playwright-POM\\playwright.config.js",
+    "rootDir": "E:/Playwright-POM",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./TestResults/test-result.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "E:/Playwright-POM/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "E:/Playwright-POM",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.45.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\Captcha\\Login_Test.spec.js",
+      "file": "tests/Captcha/Login_Test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Positive Login test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "slow"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1065,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:09:45.431Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0180e4ee77841e924640-cf026a16fbc9cacff476",
+          "file": "tests/Captcha/Login_Test.spec.js",
+          "line": 16,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Captcha\\trail.spec.js",
+      "file": "tests/Captcha/trail.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Captruing captcha",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 459,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:09:50.756Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Captcha-trail-Captruing-captcha\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Captcha-trail-Captruing-captcha\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6d5aa6f7fe8b9cf5a678-376c3f8bc1b2d2acbfd1",
+          "file": "tests/Captcha/trail.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Demo\\EasyCollab.spec.js",
+      "file": "tests/Demo/EasyCollab.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "EasyCollab Navigation Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 13676,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:09:51.467Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab-EasyCollab-Navigation-Test\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab-EasyCollab-Navigation-Test\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "699bcb4d1c8dbb2d8396-95bfd45853aff7cb2c8c",
+          "file": "tests/Demo/EasyCollab.spec.js",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": " Positive EasyCollab labirary Module",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6089,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:10:06.897Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab--Positive-EasyCollab-labirary-Module\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab--Positive-EasyCollab-labirary-Module\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "699bcb4d1c8dbb2d8396-dd40287eae494f480132",
+          "file": "tests/Demo/EasyCollab.spec.js",
+          "line": 35,
+          "column": 5
+        },
+        {
+          "title": " Negative EasyCollab labirary Module",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6054,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:10:13.199Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab--Negative-EasyCollab-labirary-Module\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab--Negative-EasyCollab-labirary-Module\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "699bcb4d1c8dbb2d8396-536094a1c3e206ba1c33",
+          "file": "tests/Demo/EasyCollab.spec.js",
+          "line": 68,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Demo\\example.spec.js",
+      "file": "tests/Demo/example.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1877,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:10:19.489Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-example-has-title\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-example-has-title\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8ca7bde6b01374eb1d74-863c47671a00a89a66ad",
+          "file": "tests/Demo/example.spec.js",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 2632,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:10:21.694Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-example-get-started-link\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-example-get-started-link\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8ca7bde6b01374eb1d74-3dc17295cb9178d73baf",
+          "file": "tests/Demo/example.spec.js",
+          "line": 11,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests\\DemoLogin\\TC_LoginPage.spec.js",
+      "file": "tests/DemoLogin/TC_LoginPage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC_1 Click on Login Button without entering the data",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3155,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "TC_LoginTestCase_001 Passed Successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:10:25.064Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d73992465777ee741dc5-d7187a5dedab1a408259",
+          "file": "tests/DemoLogin/TC_LoginPage.spec.js",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "TC_2 Click on Login Button without entering your Email id",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3185,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "TC_LoginTestCase_002 Passed Successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:10:28.230Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d73992465777ee741dc5-d86503daf04162bbfd23",
+          "file": "tests/DemoLogin/TC_LoginPage.spec.js",
+          "line": 29,
+          "column": 5
+        },
+        {
+          "title": "TC_3 Click on Login Button without entering a password",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3250,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "TC_LoginTestCase_003 Passed Successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:10:31.487Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d73992465777ee741dc5-68651e26ab583d7c9379",
+          "file": "tests/DemoLogin/TC_LoginPage.spec.js",
+          "line": 39,
+          "column": 9
+        },
+        {
+          "title": "TC_4 Verify Login with Invalid Credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3196,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Login Successfully\n"
+                    },
+                    {
+                      "text": "TC_LoginTestCase_004 Passed Successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:10:34.801Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d73992465777ee741dc5-572d249702d5ed350102",
+          "file": "tests/DemoLogin/TC_LoginPage.spec.js",
+          "line": 48,
+          "column": 13
+        },
+        {
+          "title": "TC_5 Verify Login with Valid Credentials and also verify Logout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 5359,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Login Successfully\n"
+                    },
+                    {
+                      "text": "Logout Successfully\n"
+                    },
+                    {
+                      "text": "TC_LoginTestCase_005 Passed Successfully\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:10:38.079Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d73992465777ee741dc5-d32ed65212bbb846d581",
+          "file": "tests/DemoLogin/TC_LoginPage.spec.js",
+          "line": 57,
+          "column": 17
+        }
+      ]
+    },
+    {
+      "title": "tests\\Easycollab-TestCaes\\Loginpage.spec.js",
+      "file": "tests/Easycollab-TestCaes/Loginpage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "EasyCollab Whole Site Navigation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 17316,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:10:43.503Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Easycollab-TestCaes--07be7-ollab-Whole-Site-Navigation\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "60164589ed57d0eade36-1e86afab12300c76c85f",
+          "file": "tests/Easycollab-TestCaes/Loginpage.spec.js",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "EasyCollab Logout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1313,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-26T10:11:02.324Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "60164589ed57d0eade36-a26638e20523c8b1147a",
+          "file": "tests/Easycollab-TestCaes/Loginpage.spec.js",
+          "line": 52,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests-examples\\demo-todo-app.spec.js",
+      "file": "tests-examples/demo-todo-app.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "New Todo",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 14,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should allow me to add todo items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1998,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:03.735Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-cb93c--allow-me-to-add-todo-items\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-cb93c--allow-me-to-add-todo-items\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-93f2811f99f75947e0cd",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "should clear text input field when an item is added",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1576,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:05.972Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-86427-field-when-an-item-is-added\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-86427-field-when-an-item-is-added\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-efc0c595ea79a1e87ba2",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 41,
+              "column": 3
+            },
+            {
+              "title": "should append new items to the bottom of the list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1746,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:07.689Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-de15b-s-to-the-bottom-of-the-list\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-de15b-s-to-the-bottom-of-the-list\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-2ffde5e2afd8c4573bdc",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 54,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Mark all as completed",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 73,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should allow me to mark all items as completed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1939,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:09.598Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f9478-mark-all-items-as-completed\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f9478-mark-all-items-as-completed\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-fb6bd272840d1a72fc06",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 83,
+              "column": 3
+            },
+            {
+              "title": "should allow me to clear the complete state of all items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 2030,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:11.792Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-3a74f-complete-state-of-all-items\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-3a74f-complete-state-of-all-items\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-41e61996fc83d924af81",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 92,
+              "column": 3
+            },
+            {
+              "title": "complete all checkbox should update state when items are completed / cleared",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 2028,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:14.024Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-1b069-items-are-completed-cleared\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-1b069-items-are-completed-cleared\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-624eadcabe3d39e2ccf7",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 102,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Item",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 123,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should allow me to mark items as complete",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 988,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14",
+                        "location": {
+                          "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                          "column": 14,
+                          "line": 5
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                            "column": 14,
+                            "line": 5
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:16.275Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f23ad-e-to-mark-items-as-complete\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f23ad-e-to-mark-items-as-complete\\video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                        "column": 14,
+                        "line": 5
+                      }
+                    },
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 2296,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2024-09-26T10:11:19.443Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f23ad-e-to-mark-items-as-complete-retry1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f23ad-e-to-mark-items-as-complete-retry1\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "flaky"
+                }
+              ],
+              "id": "742531b997e3a909acfb-7ddd0bdda45bf67b9fb8",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 125,
+              "column": 3
+            },
+            {
+              "title": "should allow me to un-mark items as complete",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 2190,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:22.506Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7e469-o-un-mark-items-as-complete\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7e469-o-un-mark-items-as-complete\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-4f260a582920663714d7",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 150,
+              "column": 3
+            },
+            {
+              "title": "should allow me to edit an item",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1964,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:24.955Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-18e17-ld-allow-me-to-edit-an-item\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-18e17-ld-allow-me-to-edit-an-item\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-6fca4ef54989e29d9cbe",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 175,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Editing",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 195,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should hide other controls when editing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 2274,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:27.132Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-136f6-other-controls-when-editing\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-136f6-other-controls-when-editing\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-41703dde852218ae6437",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 201,
+              "column": 3
+            },
+            {
+              "title": "should save edits on blur",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1951,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:29.568Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-c7017-g-should-save-edits-on-blur\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-c7017-g-should-save-edits-on-blur\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-910c88fe0a9996b322f5",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 211,
+              "column": 3
+            },
+            {
+              "title": "should trim entered text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1989,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:31.728Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f1b93-ng-should-trim-entered-text\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f1b93-ng-should-trim-entered-text\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-7e361421adfdf40737e0",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 225,
+              "column": 3
+            },
+            {
+              "title": "should remove the item if an empty text string was entered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 2015,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:33.963Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-3f7df-pty-text-string-was-entered\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-3f7df-pty-text-string-was-entered\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-3d5e13d16804b129538f",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 239,
+              "column": 3
+            },
+            {
+              "title": "should cancel edits on escape",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1525,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:36.148Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-b0dfe-ould-cancel-edits-on-escape\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-b0dfe-ould-cancel-edits-on-escape\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-8b2e841cf1ff424f0eb5",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 251,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Counter",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 260,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display the current number of todo items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1756,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:37.828Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-decb7-urrent-number-of-todo-items\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-decb7-urrent-number-of-todo-items\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-7cf18b267d97541a706d",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 261,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Clear completed button",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 280,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display the correct text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1727,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:39.828Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-a043b-ld-display-the-correct-text\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-a043b-ld-display-the-correct-text\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-ec2618db81831360a13e",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 285,
+              "column": 3
+            },
+            {
+              "title": "should remove completed items when clicked",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1685,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:41.792Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-e3f41-ompleted-items-when-clicked\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-e3f41-ompleted-items-when-clicked\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-836b9801d70d4ff1a546",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 290,
+              "column": 3
+            },
+            {
+              "title": "should be hidden when there are no items that are completed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 2151,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:43.687Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-8ddc4-no-items-that-are-completed\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-8ddc4-no-items-that-are-completed\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-1be4a56286828d279da3",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 298,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Persistence",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 305,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should persist its data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1621,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:46.059Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-ebbe1-nce-should-persist-its-data\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-ebbe1-nce-should-persist-its-data\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-0af176c32bf4324d66c3",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 306,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Routing",
+          "file": "tests-examples/demo-todo-app.spec.js",
+          "line": 333,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should allow me to display active items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "failed",
+                      "duration": 36646,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14",
+                        "location": {
+                          "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                          "column": 14,
+                          "line": 5
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                            "column": 14,
+                            "line": 5
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14\u001b[22m"
+                        },
+                        {
+                          "location": {
+                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                            "column": 8,
+                            "line": 334
+                          },
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n\n\u001b[0m \u001b[90m 332 |\u001b[39m\n \u001b[90m 333 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Routing'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 334 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m     |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 335 |\u001b[39m     \u001b[36mawait\u001b[39m createDefaultTodos(page)\u001b[33m;\u001b[39m\n \u001b[90m 336 |\u001b[39m     \u001b[90m// make sure the app had a chance to save updated todos in storage\u001b[39m\n \u001b[90m 337 |\u001b[39m     \u001b[90m// before navigating to a new view, otherwise the items can get lost :(\u001b[39m\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:334:8\u001b[22m"
+                        },
+                        {
+                          "location": {
+                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                            "column": 19,
+                            "line": 416
+                          },
+                          "message": "Error: locator.fill: Test ended.\nCall log:\n  \u001b[2m- waiting for getByPlaceholder('What needs to be done?')\u001b[22m\n\n\n\u001b[0m \u001b[90m 414 |\u001b[39m\n \u001b[90m 415 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m item \u001b[36mof\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 416 |\u001b[39m     \u001b[36mawait\u001b[39m newTodo\u001b[33m.\u001b[39mfill(item)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 417 |\u001b[39m     \u001b[36mawait\u001b[39m newTodo\u001b[33m.\u001b[39mpress(\u001b[32m'Enter'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 418 |\u001b[39m   }\n \u001b[90m 419 |\u001b[39m }\u001b[0m\n\n\u001b[2m    at createDefaultTodos (E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:416:19)\u001b[22m\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:335:11\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:11:47.876Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-64101--me-to-display-active-items\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-64101--me-to-display-active-items\\video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                        "column": 14,
+                        "line": 5
+                      }
+                    },
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 2220,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2024-09-26T10:12:26.688Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-64101--me-to-display-active-items-retry1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-64101--me-to-display-active-items-retry1\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "flaky"
+                }
+              ],
+              "id": "742531b997e3a909acfb-2eabba6dd660277b9932",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 342,
+              "column": 3
+            },
+            {
+              "title": "should respect the back button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "failed",
+                      "duration": 36229,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14",
+                        "location": {
+                          "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                          "column": 14,
+                          "line": 5
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                            "column": 14,
+                            "line": 5
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14\u001b[22m"
+                        },
+                        {
+                          "location": {
+                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                            "column": 8,
+                            "line": 334
+                          },
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n\n\u001b[0m \u001b[90m 332 |\u001b[39m\n \u001b[90m 333 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Routing'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 334 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m     |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 335 |\u001b[39m     \u001b[36mawait\u001b[39m createDefaultTodos(page)\u001b[33m;\u001b[39m\n \u001b[90m 336 |\u001b[39m     \u001b[90m// make sure the app had a chance to save updated todos in storage\u001b[39m\n \u001b[90m 337 |\u001b[39m     \u001b[90m// before navigating to a new view, otherwise the items can get lost :(\u001b[39m\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:334:8\u001b[22m"
+                        },
+                        {
+                          "location": {
+                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                            "column": 19,
+                            "line": 416
+                          },
+                          "message": "Error: locator.fill: Test ended.\nCall log:\n  \u001b[2m- waiting for getByPlaceholder('What needs to be done?')\u001b[22m\n\n\n\u001b[0m \u001b[90m 414 |\u001b[39m\n \u001b[90m 415 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m item \u001b[36mof\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 416 |\u001b[39m     \u001b[36mawait\u001b[39m newTodo\u001b[33m.\u001b[39mfill(item)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 417 |\u001b[39m     \u001b[36mawait\u001b[39m newTodo\u001b[33m.\u001b[39mpress(\u001b[32m'Enter'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 418 |\u001b[39m   }\n \u001b[90m 419 |\u001b[39m }\u001b[0m\n\n\u001b[2m    at createDefaultTodos (E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:416:19)\u001b[22m\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:335:11\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:12:29.560Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7cf8c-uld-respect-the-back-button\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7cf8c-uld-respect-the-back-button\\video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
+                        "column": 14,
+                        "line": 5
+                      }
+                    },
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 2748,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "steps": [
+                        {
+                          "title": "Showing all items",
+                          "duration": 162
+                        },
+                        {
+                          "title": "Showing active items",
+                          "duration": 94
+                        },
+                        {
+                          "title": "Showing completed items",
+                          "duration": 90
+                        }
+                      ],
+                      "startTime": "2024-09-26T10:13:07.903Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7cf8c-uld-respect-the-back-button-retry1\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7cf8c-uld-respect-the-back-button-retry1\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "flaky"
+                }
+              ],
+              "id": "742531b997e3a909acfb-49233ece5f6b424c2ca4",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 352,
+              "column": 3
+            },
+            {
+              "title": "should allow me to display completed items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 2087,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:13:11.316Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-4151f--to-display-completed-items\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-4151f--to-display-completed-items\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-67993787d95814f0328e",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 378,
+              "column": 3
+            },
+            {
+              "title": "should allow me to display all items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 1897,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:13:13.684Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-4b396-low-me-to-display-all-items\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-4b396-low-me-to-display-all-items\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-1e6658aca258d1c4fea0",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 385,
+              "column": 3
+            },
+            {
+              "title": "should highlight the currently applied filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 1657,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-26T10:13:15.744Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-ae530-he-currently-applied-filter\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-ae530-he-currently-applied-filter\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "742531b997e3a909acfb-535fac5a8b389d9b433b",
+              "file": "tests-examples/demo-todo-app.spec.js",
+              "line": 394,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-09-26T10:09:43.809Z",
+    "duration": 214107.877,
+    "expected": 35,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 3
+  }
+}

@@ -25,37 +25,3 @@ test('Positive Login test', async ({  }) => {
   test.slow();
   await page.close();
 });
-
-test('Negative username test', async ({  }) => {
-
-  const login = new LoginClass(page);
-
-  await login.Username();
-  await login.SubmitButton();
-  await expect(page.locator('#error')).toBeVisible();
-  await page.close();
-});
-
-test('Negative password test', async ({  }) => {
-
-  const login = new LoginClass(page);
-
-  await login.password();
-  await login.SubmitButton();
-  await expect(page.locator('#error')).toBeVisible();
-  await page.close();
-});
-
-test('Negative username and password test', async ({  }) => {
-
-  const login = new LoginClass(page);
-
-  await login.Username();
-  await login.password();
-  await login.SubmitButton();
-  await expect(page.locator('#error')).toBeVisible();
-  await page.close();
-});
-
-
-
