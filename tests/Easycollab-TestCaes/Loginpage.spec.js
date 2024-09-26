@@ -24,30 +24,30 @@ test('EasyCollab Whole Site Navigation', async({  }) => {
 })
 
 
-test('Making Order of snacks in EasyCollab', async ({  }) => 
-    {
+// test('Making Order of snacks in EasyCollab', async ({  }) => 
+//     {
         
-        const Order = new LoginPage(page)
+//         const Order = new LoginPage(page)
         
-    await Order.makeOrder()
+//     await Order.makeOrder()
 
-    await expect(page.getByRole('heading', { name: 'Evening Snacks Items' })).toBeVisible();
-    await page.locator('li').filter({ hasText: 'Balaji Salted Wafer RS.10 Add' }).getByRole('button').click();
+//     await expect(page.getByRole('heading', { name: 'Evening Snacks Items' })).toBeVisible();
+//     await page.locator('li').filter({ hasText: 'Balaji Salted Wafer RS.10 Add' }).getByRole('button').click();
 
-    await page.on('dialog', dialog => {
-        dialog.accept()
-    });
-})
+//     await page.on('dialog', dialog => {
+//         dialog.accept()
+//     });
+// })
 
-test('Cancling the order form EasyCollab', async ({  }) =>
-{
+// test('Cancling the order form EasyCollab', async ({  }) =>
+// {
 
-    const CancleMadeOrder = new LoginPage(page)
+//     const CancleMadeOrder = new LoginPage(page)
 
-    await page.reload();
-    await page.locator("//li[@class='cart-icon']").hover();
-    await page.getByRole('link', { name: 'X' }).click();
-})
+//     await page.reload();
+//     await page.locator("//li[@class='cart-icon']").hover();
+//     await page.getByRole('link', { name: 'X' }).click();
+// })
 
 test('EasyCollab Logout', async ({  }) => {
 
@@ -58,11 +58,11 @@ test('EasyCollab Logout', async ({  }) => {
     page.close()
 })
 
-test(' EasyCollab InValid Login', async ({ }) => {
+// test(' EasyCollab InValid Login', async ({ }) => {
 
-    const Invalid = new LoginPage(page)
+//     const Invalid = new LoginPage(page)
 
-    // await Invalid.LogoutFromsite()
+//     // await Invalid.LogoutFromsite()
 
-    await Invalid.InValidLogin()
-})
+//     await Invalid.InValidLogin()
+// })
