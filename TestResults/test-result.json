@@ -85,12 +85,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1065,
+                  "duration": 1415,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-09-26T10:09:45.431Z",
+                  "startTime": "2024-09-26T10:19:40.684Z",
                   "attachments": []
                 }
               ],
@@ -125,12 +125,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 459,
+                  "duration": 291,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-09-26T10:09:50.756Z",
+                  "startTime": "2024-09-26T10:19:49.302Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -175,28 +175,52 @@
               "results": [
                 {
                   "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 13676,
-                  "errors": [],
+                  "status": "interrupted",
+                  "duration": 1405,
+                  "error": {
+                    "message": "Error: locator.click: Test ended.\nCall log:\n  \u001b[2m- waiting for getByRole('link', { name: 'Project' })\u001b[22m\n\u001b[2m  -   locator resolved to <a href=\"#\" data-toggle=\"dropdown\" class=\"dropdown-toggle\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m  -   waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m  -   element is visible, enabled and stable\u001b[22m\n\u001b[2m  -   scrolling into view if needed\u001b[22m\n\u001b[2m  -   done scrolling\u001b[22m\n\u001b[2m  -   performing click action\u001b[22m\n",
+                    "stack": "Error: locator.click: Test ended.\nCall log:\n  \u001b[2m- waiting for getByRole('link', { name: 'Project' })\u001b[22m\n\u001b[2m  -   locator resolved to <a href=\"#\" data-toggle=\"dropdown\" class=\"dropdown-toggle\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m  -   waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m  -   element is visible, enabled and stable\u001b[22m\n\u001b[2m  -   scrolling into view if needed\u001b[22m\n\u001b[2m  -   done scrolling\u001b[22m\n\u001b[2m  -   performing click action\u001b[22m\n\n    at E:\\Playwright-POM\\tests\\Demo\\EasyCollab.spec.js:16:55",
+                    "location": {
+                      "file": "E:\\Playwright-POM\\tests\\Demo\\EasyCollab.spec.js",
+                      "column": 55,
+                      "line": 16
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Sign in'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[90m// await expect(page.getByRole('heading', { name: 'Today\\'s Headline' })).toBeVisible();\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Project'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Projects'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'paragraph'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Marketing'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "E:\\Playwright-POM\\tests\\Demo\\EasyCollab.spec.js",
+                        "column": 55,
+                        "line": 16
+                      },
+                      "message": "Error: locator.click: Test ended.\nCall log:\n  \u001b[2m- waiting for getByRole('link', { name: 'Project' })\u001b[22m\n\u001b[2m  -   locator resolved to <a href=\"#\" data-toggle=\"dropdown\" class=\"dropdown-toggle\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m  -   waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m  -   element is visible, enabled and stable\u001b[22m\n\u001b[2m  -   scrolling into view if needed\u001b[22m\n\u001b[2m  -   done scrolling\u001b[22m\n\u001b[2m  -   performing click action\u001b[22m\n\n\n\u001b[0m \u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Sign in'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[90m// await expect(page.getByRole('heading', { name: 'Today\\'s Headline' })).toBeVisible();\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Project'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Projects'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'paragraph'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Marketing'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests\\Demo\\EasyCollab.spec.js:16:55\u001b[22m"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-09-26T10:09:51.467Z",
+                  "startTime": "2024-09-26T10:19:49.774Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab-EasyCollab-Navigation-Test\\test-finished-1.png"
+                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab-EasyCollab-Navigation-Test\\test-failed-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
                       "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab-EasyCollab-Navigation-Test\\video.webm"
                     }
-                  ]
+                  ],
+                  "errorLocation": {
+                    "file": "E:\\Playwright-POM\\tests\\Demo\\EasyCollab.spec.js",
+                    "column": 55,
+                    "line": 16
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "skipped"
             }
           ],
           "id": "699bcb4d1c8dbb2d8396-95bfd45853aff7cb2c8c",
@@ -215,31 +239,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 6089,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:10:06.897Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab--Positive-EasyCollab-labirary-Module\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab--Positive-EasyCollab-labirary-Module\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "699bcb4d1c8dbb2d8396-dd40287eae494f480132",
@@ -258,31 +259,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 6054,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:10:13.199Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab--Negative-EasyCollab-labirary-Module\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-EasyCollab--Negative-EasyCollab-labirary-Module\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "699bcb4d1c8dbb2d8396-536094a1c3e206ba1c33",
@@ -309,31 +287,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 1877,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:10:19.489Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-example-has-title\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-example-has-title\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "8ca7bde6b01374eb1d74-863c47671a00a89a66ad",
@@ -352,31 +307,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 2632,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:10:21.694Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-example-get-started-link\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "E:\\Playwright-POM\\test-results\\tests-Demo-example-get-started-link\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "8ca7bde6b01374eb1d74-3dc17295cb9178d73baf",
@@ -403,24 +335,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 3155,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "TC_LoginTestCase_001 Passed Successfully\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:10:25.064Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "d73992465777ee741dc5-d7187a5dedab1a408259",
@@ -439,24 +355,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 3185,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "TC_LoginTestCase_002 Passed Successfully\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:10:28.230Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "d73992465777ee741dc5-d86503daf04162bbfd23",
@@ -475,24 +375,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 3250,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "TC_LoginTestCase_003 Passed Successfully\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:10:31.487Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "d73992465777ee741dc5-68651e26ab583d7c9379",
@@ -511,27 +395,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 3196,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Login Successfully\n"
-                    },
-                    {
-                      "text": "TC_LoginTestCase_004 Passed Successfully\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:10:34.801Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "d73992465777ee741dc5-572d249702d5ed350102",
@@ -550,30 +415,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 5359,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Login Successfully\n"
-                    },
-                    {
-                      "text": "Logout Successfully\n"
-                    },
-                    {
-                      "text": "TC_LoginTestCase_005 Passed Successfully\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:10:38.079Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "d73992465777ee741dc5-d32ed65212bbb846d581",
@@ -600,26 +443,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 17316,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:10:43.503Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "E:\\Playwright-POM\\test-results\\tests-Easycollab-TestCaes--07be7-ollab-Whole-Site-Navigation\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "60164589ed57d0eade36-1e86afab12300c76c85f",
@@ -638,20 +463,8 @@
               "expectedStatus": "passed",
               "projectId": "",
               "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 1313,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-26T10:11:02.324Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "60164589ed57d0eade36-a26638e20523c8b1147a",
@@ -685,31 +498,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 1998,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:03.735Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-cb93c--allow-me-to-add-todo-items\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-cb93c--allow-me-to-add-todo-items\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-93f2811f99f75947e0cd",
@@ -728,31 +518,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 1576,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:05.972Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-86427-field-when-an-item-is-added\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-86427-field-when-an-item-is-added\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-efc0c595ea79a1e87ba2",
@@ -771,31 +538,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 1746,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:07.689Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-de15b-s-to-the-bottom-of-the-list\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-de15b-s-to-the-bottom-of-the-list\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-2ffde5e2afd8c4573bdc",
@@ -822,31 +566,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 1939,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:09.598Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f9478-mark-all-items-as-completed\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f9478-mark-all-items-as-completed\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-fb6bd272840d1a72fc06",
@@ -865,31 +586,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 2030,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:11.792Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-3a74f-complete-state-of-all-items\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-3a74f-complete-state-of-all-items\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-41e61996fc83d924af81",
@@ -908,31 +606,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 2028,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:14.024Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-1b069-items-are-completed-cleared\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-1b069-items-are-completed-cleared\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-624eadcabe3d39e2ccf7",
@@ -959,77 +634,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "failed",
-                      "duration": 988,
-                      "error": {
-                        "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n",
-                        "stack": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14",
-                        "location": {
-                          "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                          "column": 14,
-                          "line": 5
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                            "column": 14,
-                            "line": 5
-                          },
-                          "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14\u001b[22m"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:16.275Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f23ad-e-to-mark-items-as-complete\\test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f23ad-e-to-mark-items-as-complete\\video.webm"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                        "column": 14,
-                        "line": 5
-                      }
-                    },
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 2296,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2024-09-26T10:11:19.443Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f23ad-e-to-mark-items-as-complete-retry1\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f23ad-e-to-mark-items-as-complete-retry1\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "flaky"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-7ddd0bdda45bf67b9fb8",
@@ -1048,31 +654,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 2190,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:22.506Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7e469-o-un-mark-items-as-complete\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7e469-o-un-mark-items-as-complete\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-4f260a582920663714d7",
@@ -1091,31 +674,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 1964,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:24.955Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-18e17-ld-allow-me-to-edit-an-item\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-18e17-ld-allow-me-to-edit-an-item\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-6fca4ef54989e29d9cbe",
@@ -1142,31 +702,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 2274,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:27.132Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-136f6-other-controls-when-editing\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-136f6-other-controls-when-editing\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-41703dde852218ae6437",
@@ -1185,31 +722,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 1951,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:29.568Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-c7017-g-should-save-edits-on-blur\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-c7017-g-should-save-edits-on-blur\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-910c88fe0a9996b322f5",
@@ -1228,31 +742,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 1989,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:31.728Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f1b93-ng-should-trim-entered-text\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-f1b93-ng-should-trim-entered-text\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-7e361421adfdf40737e0",
@@ -1271,31 +762,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 2015,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:33.963Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-3f7df-pty-text-string-was-entered\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-3f7df-pty-text-string-was-entered\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-3d5e13d16804b129538f",
@@ -1314,31 +782,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 1525,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:36.148Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-b0dfe-ould-cancel-edits-on-escape\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-b0dfe-ould-cancel-edits-on-escape\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-8b2e841cf1ff424f0eb5",
@@ -1365,31 +810,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 1756,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:37.828Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-decb7-urrent-number-of-todo-items\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-decb7-urrent-number-of-todo-items\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-7cf18b267d97541a706d",
@@ -1416,31 +838,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 1727,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:39.828Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-a043b-ld-display-the-correct-text\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-a043b-ld-display-the-correct-text\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-ec2618db81831360a13e",
@@ -1459,31 +858,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 1685,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:41.792Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-e3f41-ompleted-items-when-clicked\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-e3f41-ompleted-items-when-clicked\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-836b9801d70d4ff1a546",
@@ -1502,31 +878,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 2151,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:43.687Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-8ddc4-no-items-that-are-completed\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-8ddc4-no-items-that-are-completed\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-1be4a56286828d279da3",
@@ -1553,31 +906,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 1621,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:46.059Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-ebbe1-nce-should-persist-its-data\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-ebbe1-nce-should-persist-its-data\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-0af176c32bf4324d66c3",
@@ -1604,93 +934,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "failed",
-                      "duration": 36646,
-                      "error": {
-                        "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n",
-                        "stack": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14",
-                        "location": {
-                          "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                          "column": 14,
-                          "line": 5
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                            "column": 14,
-                            "line": 5
-                          },
-                          "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14\u001b[22m"
-                        },
-                        {
-                          "location": {
-                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                            "column": 8,
-                            "line": 334
-                          },
-                          "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n\n\u001b[0m \u001b[90m 332 |\u001b[39m\n \u001b[90m 333 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Routing'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 334 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m     |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 335 |\u001b[39m     \u001b[36mawait\u001b[39m createDefaultTodos(page)\u001b[33m;\u001b[39m\n \u001b[90m 336 |\u001b[39m     \u001b[90m// make sure the app had a chance to save updated todos in storage\u001b[39m\n \u001b[90m 337 |\u001b[39m     \u001b[90m// before navigating to a new view, otherwise the items can get lost :(\u001b[39m\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:334:8\u001b[22m"
-                        },
-                        {
-                          "location": {
-                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                            "column": 19,
-                            "line": 416
-                          },
-                          "message": "Error: locator.fill: Test ended.\nCall log:\n  \u001b[2m- waiting for getByPlaceholder('What needs to be done?')\u001b[22m\n\n\n\u001b[0m \u001b[90m 414 |\u001b[39m\n \u001b[90m 415 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m item \u001b[36mof\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 416 |\u001b[39m     \u001b[36mawait\u001b[39m newTodo\u001b[33m.\u001b[39mfill(item)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 417 |\u001b[39m     \u001b[36mawait\u001b[39m newTodo\u001b[33m.\u001b[39mpress(\u001b[32m'Enter'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 418 |\u001b[39m   }\n \u001b[90m 419 |\u001b[39m }\u001b[0m\n\n\u001b[2m    at createDefaultTodos (E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:416:19)\u001b[22m\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:335:11\u001b[22m"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:11:47.876Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-64101--me-to-display-active-items\\test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-64101--me-to-display-active-items\\video.webm"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                        "column": 14,
-                        "line": 5
-                      }
-                    },
-                    {
-                      "workerIndex": 2,
-                      "status": "passed",
-                      "duration": 2220,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2024-09-26T10:12:26.688Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-64101--me-to-display-active-items-retry1\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-64101--me-to-display-active-items-retry1\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "flaky"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-2eabba6dd660277b9932",
@@ -1709,107 +954,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "status": "failed",
-                      "duration": 36229,
-                      "error": {
-                        "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n",
-                        "stack": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14",
-                        "location": {
-                          "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                          "column": 14,
-                          "line": 5
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                            "column": 14,
-                            "line": 5
-                          },
-                          "message": "Error: page.goto: net::ERR_CONNECTION_RESET at https://demo.playwright.dev/todomvc\nCall log:\n  \u001b[2m- navigating to \"https://demo.playwright.dev/todomvc\", waiting until \"load\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.playwright.dev/todomvc'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m \u001b[33m=\u001b[39m [\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:5:14\u001b[22m"
-                        },
-                        {
-                          "location": {
-                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                            "column": 8,
-                            "line": 334
-                          },
-                          "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n\n\u001b[0m \u001b[90m 332 |\u001b[39m\n \u001b[90m 333 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Routing'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 334 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m     |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 335 |\u001b[39m     \u001b[36mawait\u001b[39m createDefaultTodos(page)\u001b[33m;\u001b[39m\n \u001b[90m 336 |\u001b[39m     \u001b[90m// make sure the app had a chance to save updated todos in storage\u001b[39m\n \u001b[90m 337 |\u001b[39m     \u001b[90m// before navigating to a new view, otherwise the items can get lost :(\u001b[39m\u001b[0m\n\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:334:8\u001b[22m"
-                        },
-                        {
-                          "location": {
-                            "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                            "column": 19,
-                            "line": 416
-                          },
-                          "message": "Error: locator.fill: Test ended.\nCall log:\n  \u001b[2m- waiting for getByPlaceholder('What needs to be done?')\u001b[22m\n\n\n\u001b[0m \u001b[90m 414 |\u001b[39m\n \u001b[90m 415 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m item \u001b[36mof\u001b[39m \u001b[33mTODO_ITEMS\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 416 |\u001b[39m     \u001b[36mawait\u001b[39m newTodo\u001b[33m.\u001b[39mfill(item)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 417 |\u001b[39m     \u001b[36mawait\u001b[39m newTodo\u001b[33m.\u001b[39mpress(\u001b[32m'Enter'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 418 |\u001b[39m   }\n \u001b[90m 419 |\u001b[39m }\u001b[0m\n\n\u001b[2m    at createDefaultTodos (E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:416:19)\u001b[22m\n\u001b[2m    at E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js:335:11\u001b[22m"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:12:29.560Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7cf8c-uld-respect-the-back-button\\test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7cf8c-uld-respect-the-back-button\\video.webm"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "E:\\Playwright-POM\\tests-examples\\demo-todo-app.spec.js",
-                        "column": 14,
-                        "line": 5
-                      }
-                    },
-                    {
-                      "workerIndex": 3,
-                      "status": "passed",
-                      "duration": 2748,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "steps": [
-                        {
-                          "title": "Showing all items",
-                          "duration": 162
-                        },
-                        {
-                          "title": "Showing active items",
-                          "duration": 94
-                        },
-                        {
-                          "title": "Showing completed items",
-                          "duration": 90
-                        }
-                      ],
-                      "startTime": "2024-09-26T10:13:07.903Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7cf8c-uld-respect-the-back-button-retry1\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-7cf8c-uld-respect-the-back-button-retry1\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "flaky"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-49233ece5f6b424c2ca4",
@@ -1828,31 +974,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "status": "passed",
-                      "duration": 2087,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:13:11.316Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-4151f--to-display-completed-items\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-4151f--to-display-completed-items\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-67993787d95814f0328e",
@@ -1871,31 +994,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "status": "passed",
-                      "duration": 1897,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:13:13.684Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-4b396-low-me-to-display-all-items\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-4b396-low-me-to-display-all-items\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-1e6658aca258d1c4fea0",
@@ -1914,31 +1014,8 @@
                   "expectedStatus": "passed",
                   "projectId": "",
                   "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "status": "passed",
-                      "duration": 1657,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-09-26T10:13:15.744Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-ae530-he-currently-applied-filter\\test-finished-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "E:\\Playwright-POM\\test-results\\tests-examples-demo-todo-a-ae530-he-currently-applied-filter\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "results": [],
+                  "status": "skipped"
                 }
               ],
               "id": "742531b997e3a909acfb-535fac5a8b389d9b433b",
@@ -1953,11 +1030,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-09-26T10:09:43.809Z",
-    "duration": 214107.877,
-    "expected": 35,
-    "skipped": 0,
+    "startTime": "2024-09-26T10:19:39.228Z",
+    "duration": 13294.889,
+    "expected": 2,
+    "skipped": 36,
     "unexpected": 0,
-    "flaky": 3
+    "flaky": 0
   }
 }
